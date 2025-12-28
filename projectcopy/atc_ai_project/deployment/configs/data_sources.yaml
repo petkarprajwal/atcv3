@@ -1,0 +1,47 @@
+# ATC AI System - Data Source Configuration
+
+# OpenSky Network API settings
+OPENSKY_API:
+  enabled: true
+  username: "" # Your OpenSky username
+  password: "" # Your OpenSky password
+  base_url: "https://opensky-network.org/api"
+  update_interval: 10  # seconds
+  fallback_to_demo: true  # Use demo data if API is unavailable
+
+# Weather data sources
+WEATHER_API:
+  enabled: true
+  provider: "openweather"  # openweather, aviationweather, etc.
+  api_key: ""  # Your API key
+  update_interval: 300  # seconds
+  airports_to_monitor:
+    - "JFK"
+    - "LAX"
+    - "ORD"
+    - "DFW"
+    - "ATL"
+    - "LHR"
+    - "CDG"
+    - "SYD"
+
+# Airport data
+AIRPORT_DATA:
+  source: "file"  # file, api, database
+  file_path: "data/airports.json"
+  update_interval: 86400  # seconds (daily)
+
+# Warzone data
+WARZONE_DATA:
+  source: "file"  # file, api, realtime
+  file_path: "data/warzones.json"
+  auto_update: true
+  update_interval: 3600  # seconds (hourly)
+
+# System settings
+SYSTEM:
+  log_level: "info"  # debug, info, warning, error
+  data_retention_days: 30
+  backup_interval: 86400  # seconds (daily)
+  max_connections: 50
+  timeout: 30  # seconds

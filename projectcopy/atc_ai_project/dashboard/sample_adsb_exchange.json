@@ -1,0 +1,33 @@
+{
+    "acList": [{
+            "Icao": "A1B2C3",
+            "Call": "TEST123",
+            "Ctry": "United States",
+            "PosTime": 1636567890000,
+            "Long": -122.379,
+            "Lat": 37.621,
+            "Alt": 35000,
+            "Gnd": false,
+            "Spd": 450,
+            "Trak": 90,
+            "Vsi": 0,
+            "Sqk": "7500",
+            "Src": 1
+        },
+        {
+            "Icao": "D4E5F6",
+            "Call": "SAMPLE456",
+            "Ctry": "Canada",
+            "PosTime": 1636567900000,
+            "Long": -79.630,
+            "Lat": 43.677,
+            "Alt": 28000,
+            "Gnd": false,
+            "Spd": 420,
+            "Trak": 270,
+            "Vsi": -500,
+            "Sqk": "7600",
+            "Src": 1
+        }
+    ]
+}

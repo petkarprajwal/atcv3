@@ -1,0 +1,19 @@
+[
+    [
+        { "callsign": "DemoFlight1", "origin_country": "US", "baro_altitude": 10000, "velocity": 250, "true_track": 90, "origin": "JFK", "destination": "LAX", "warzone": false },
+        { "callsign": "DemoFlight2", "origin_country": "US", "baro_altitude": 12000, "velocity": 260, "true_track": 100, "origin": "LAX", "destination": "ORD", "warzone": false },
+        { "callsign": "DemoFlight3", "origin_country": "IN", "baro_altitude": 11000, "velocity": 240, "true_track": 80, "origin": "DEL", "destination": "BOM", "warzone": false },
+        { "callsign": "DemoFlight4", "origin_country": "UK", "baro_altitude": 13000, "velocity": 270, "true_track": 110, "origin": "LHR", "destination": "CDG", "warzone": false },
+        { "callsign": "DemoFlight5", "origin_country": "FR", "baro_altitude": 9000, "velocity": 230, "true_track": 70, "origin": "CDG", "destination": "JFK", "warzone": false },
+        { "callsign": "DemoFlight6", "origin_country": "DE", "baro_altitude": 14000, "velocity": 280, "true_track": 120, "origin": "FRA", "destination": "LHR", "warzone": false },
+        { "callsign": "DemoFlight7", "origin_country": "US", "baro_altitude": 10500, "velocity": 255, "true_track": 95, "origin": "ATL", "destination": "DFW", "warzone": false },
+        { "callsign": "DemoFlight8", "origin_country": "IN", "baro_altitude": 11500, "velocity": 245, "true_track": 85, "origin": "BLR", "destination": "DEL", "warzone": false },
+        { "callsign": "DemoFlight9", "origin_country": "UK", "baro_altitude": 12500, "velocity": 265, "true_track": 105, "origin": "MAN", "destination": "LHR", "warzone": false },
+        { "callsign": "DemoFlight10", "origin_country": "FR", "baro_altitude": 9500, "velocity": 235, "true_track": 75, "origin": "CDG", "destination": "FRA", "warzone": false },
+        { "callsign": "DemoFlight11", "origin_country": "DE", "baro_altitude": 14500, "velocity": 285, "true_track": 125, "origin": "FRA", "destination": "DEL", "warzone": false },
+        { "callsign": "DemoFlight12", "origin_country": "US", "baro_altitude": 10200, "velocity": 252, "true_track": 92, "origin": "ORD", "destination": "ATL", "warzone": false },
+        { "callsign": "DemoFlight13", "origin_country": "IN", "baro_altitude": 11200, "velocity": 242, "true_track": 82, "origin": "BOM", "destination": "BLR", "warzone": false },
+        { "callsign": "DemoFlight14", "origin_country": "UK", "baro_altitude": 13200, "velocity": 272, "true_track": 112, "origin": "LHR", "destination": "JFK", "warzone": true, "reroute": { "new_destination": "CDG", "reason": "Warzone detected" } },
+        { "callsign": "DemoFlight15", "origin_country": "FR", "baro_altitude": 9200, "velocity": 232, "true_track": 72, "origin": "CDG", "destination": "LHR", "warzone": true, "reroute": { "new_destination": "FRA", "reason": "Warzone detected" } }
+    ]
+]

@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Data and cache
+/data/cache/
+/data/models/
+/data/snapshots/
+/data/large_dataset/
+*.log
+
+# Build / dist
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit / app caches
+.streamlit/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Local env files
+.env
+
+# Credentials (do not commit)
+credentials.json
+
+# Logs
+*.log
+
+# Byte-compiled / optimized
+*.pyc
+
+# Misc
+.DS_Store
